@@ -291,15 +291,9 @@ footer {
 
 //
 // 2018-05-22
-// table 추가 
+// table border 추가 
 //
 
-table{
-   background: #fff;
-}
 table,thead,tbody,tfoot,tr, td,th{
-  margin: auto;
   border:1px solid #dedede;
-  padding: 1px;
-  width: 100%;
 }
