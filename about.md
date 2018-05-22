@@ -9,7 +9,7 @@ permalink: /about/
 ### More Information
 
 국민대학교 경영학과 졸업<br>
-SAP Junior Consultant 과정 수료<br>\n
+SAP Junior Consultant 과정 수료<br>
 비트캠프 수료
 
 ### Contact me
