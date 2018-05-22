@@ -298,18 +298,8 @@ table{
    background: #fff;
 }
 table,thead,tbody,tfoot,tr, td,th{
-  text-align: left;
   margin: auto;
   border:1px solid #dedede;
-  padding: 1rem;
+  padding: 1px;
   width: 100%;
 }
-.table    { display: table; width: 100%; }
-.tr       { display: table-row;  }
-.thead    { display: table-header-group }
-.tbody    { display: table-row-group }
-.tfoot    { display: table-footer-group }
-.col      { display: table-column }
-.colgroup { display: table-column-group }
-.td, .th   { display: table-cell; width: 100%; }
-.caption  { display: table-caption }
