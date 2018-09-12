@@ -8,13 +8,13 @@ permalink: /note/
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}/note">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}note/{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}/note" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}note/{{ post.url }}/note" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
