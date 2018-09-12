@@ -13,7 +13,7 @@ permalink: /about/
 
 ### More Information
 
-Using Java, JavaScript, jQuery, OracleDB
+Using Java, JavaScript, jQuery, OracleDB  
 그 외에도 vue, swift 등등 여러가지 기술에 관심이 있습니다.
   
 2016.04 ~ Human Consulting Group Solution division / Consultant
