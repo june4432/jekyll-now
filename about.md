@@ -24,5 +24,4 @@ Using Java, JavaScript, jQuery, OracleDB
 
 ### Contact me
 
-[leetop4432@gmail.com](mailto:leetop4432@gmail.com)  
-[LinkedIn](linkedin.com/in/영준-이-39403b14b)
+[leetop4432@gmail.com](mailto:leetop4432@gmail.com)
