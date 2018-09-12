@@ -1,15 +1,16 @@
-프로젝트를 진행하면서 클라이언트단이 아닌 서버단에서 SMS서버와 AJAX통신을 해야해서 여러 코드를 찾던 중 자바버전이 올라가면서
-참조할 만한 코드들이 존재하지 않게 되어 HttpClient를 활용한 ajax통신이 가능한 메소드를 만들게 되었습니다.
-
-코드는 몇가지 단계로 구분이 됩니다.
-1. 화면에서 받아온 파라미터를 통해 jsonObject를 생성합니다.
-2. 커넥션설정을 합니다.
-3. 전송 및 리턴값을 받아 정규식으로 치환합니다. 
-   (이 프로젝트에서는 결과값이 16진수로 리턴값이 와서 리턴메세지가 짤리는 현상이 발생하여 정규식으로 모두 치환을 했습니다.)
-4. 업무테이블에 결과 저장
-
-소스는 아래와 같으니 참조하시면 됩니다.
-
+프로젝트를 진행하면서 클라이언트단이 아닌 서버단에서 SMS서버와 AJAX통신을 해야해서 여러 코드를 찾던 중 자바버전이 올라가면서  
+참조할 만한 코드들이 존재하지 않게 되어 HttpClient를 활용한 ajax통신이 가능한 메소드를 만들게 되었습니다.  
+  
+코드는 몇가지 단계로 구분이 됩니다.  
+1. 화면에서 받아온 파라미터를 통해 jsonObject를 생성합니다.  
+2. 커넥션설정을 합니다.  
+3. 전송 및 리턴값을 받아 정규식으로 치환합니다.   
+   (이 프로젝트에서는 결과값이 16진수로 리턴값이 와서 리턴메세지가 짤리는 현상이 발생하여 정규식으로 모두 치환을 했습니다.)  
+4. 업무테이블에 결과 저장  
+  
+소스는 아래와 같으니 참조하시면 됩니다.  
+  
+```
 public void postSms(String C_CD, String TRG_EMP_ID, String FROM_TEL_NO, String TO_TEL_NO, String MESSAGE) throws SQLException, hunelBizException, IOException, JSONException
 {
 		//테스트용 URL 및 파라미터
@@ -129,3 +130,4 @@ public void postSms(String C_CD, String TRG_EMP_ID, String FROM_TEL_NO, String T
 			log.debug(e);
 		}
     }
+```
