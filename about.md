@@ -11,7 +11,7 @@ permalink: /about/
 다양한 기술과 업무를 배우고 수행해 나가고 있습니다.
 
 
-### More Information
+### Career
 
 Using Java, JavaScript, jQuery, OracleDB  
 그 외에도 vue, swift 등등 여러가지 기술에 관심이 있습니다.
